@@ -28,7 +28,7 @@ Este proyecto demuestra la implementación y análisis de una Red Neuronal Convo
    - Realizar predicciones en imágenes personalizadas
 
 ### Ejercicios Incluidos
-1. Visualización de al menos 10 kernels del modelo pre-entrenado
+# 1. Visualización de al menos 10 kernels del modelo pre-entrenado
    Se implementa el siguiente código:
 
 # Importar librerías
@@ -79,7 +79,7 @@ for i in range(10):
     axes[i].axis('off')
     axes[i].set_title(f'Filtro {i+1}')
 plt.show() 
-2. Visualización de las salidas de la convolución con los kernels
+# 2. Visualización de las salidas de la convolución con los kernels
 Se implementa el siguiente código:
 # Importar librerías
 from tensorflow.keras.models import load_model
@@ -150,7 +150,7 @@ for i in range(10):
     plt.axis('off')
 plt.tight_layout()
 plt.show()
-3. Predicciones en al menos 10 imágenes propias
+# 3. Predicciones en al menos 10 imágenes propias
 Se implementa el siguiente código:
 import numpy as np
 import matplotlib.pyplot as plt
@@ -203,7 +203,7 @@ for nombre in nombres_imagenes:
     plt.title(f"{nombre} → Predicción: {pred_clase}")
     plt.axis("off")
     plt.show()
-4. Repetición del análisis de convolución con imágenes personalizadas
+# 4. Repetición del análisis de convolución con imágenes personalizadas
    Se implementa el siguiente código:
    # Importar librerías
 from tensorflow.keras.models import load_model
